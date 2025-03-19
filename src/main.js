@@ -1,4 +1,6 @@
 import "./style.css";
+import 'remixicon/fonts/remixicon.css'
+
 
 document.querySelector("#app").innerHTML = `
   <div class="cv-container">
@@ -13,6 +15,7 @@ document.querySelector("#app").innerHTML = `
     </div>
 
     <div class="cv-section">
+    <i class="ri-building-4-fill"></i>
       <h2 class="cv-section-title">Compétences</h2>
       <ul class="cv-list">
         <li>JavaScript, HTML, CSS</li>
